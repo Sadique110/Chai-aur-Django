@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Chai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>All chai avalibale here</h1>
+<body class="bg-slate-100 text-slate-900">
+    <main class="min-h-screen px-6 py-10">
+        <section class="mx-auto max-w-5xl">
+            <div class="mb-8 rounded-lg bg-white p-8 shadow-sm">
+                <p class="text-sm font-semibold uppercase tracking-wide text-amber-700">Django Tailwind</p>
+                <h1 class="mt-2 text-4xl font-bold">All Chai Available Here</h1>
+                <p class="mt-4 max-w-2xl text-slate-600">
+                    A simple Tailwind template for learning Django templates and styling chai cards.
+                </p>
+            </div>
+
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <article class="rounded-lg bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-amber-100 text-xl">
+                        C
+                    </div>
+                    <h2 class="text-xl font-semibold">Masala Chai</h2>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Strong tea brewed with spices, milk, and a warm homely flavor.
+                    </p>
+                </article>
+
+                <article class="rounded-lg bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-emerald-100 text-xl">
+                        G
+                    </div>
+                    <h2 class="text-xl font-semibold">Green Tea</h2>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Light, fresh, and simple for a calm coding break.
+                    </p>
+                </article>
+
+                <article class="rounded-lg bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                    <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-rose-100 text-xl">
+                        I
+                    </div>
+                    <h2 class="text-xl font-semibold">Iced Chai</h2>
+                    <p class="mt-2 text-sm text-slate-600">
+                        A chilled version of chai for hot afternoons and long practice sessions.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
